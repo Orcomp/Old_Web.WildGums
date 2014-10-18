@@ -1,0 +1,50 @@
+---
+layout: default
+title: About Us
+permalink: /about/
+welcome-header: "Welcome to WildGums"
+welcome-description1: "Sed ut perspiciatis unde omnis <strong>iste natus error</strong> sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut."
+
+# Note: if you want to make a text bold, put it into <strong>Your text</strong> tag.
+welcome-description2: "Welcome to WildGums"
+
+welcome-description2: "Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets."
+
+about-image: "/assets/images/WildGums/AboutUs.jpg"
+about-header: "WildGums : Plan your manufacture"
+about-content-p1: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+about-content-p2: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+about-content-p3: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem."
+
+---
+<header id="page-title">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        <ul class="breadcrumb">
+            <li><a href="{{ site.url }}">Home</a></li>
+            <li class="active">{{ page.title }}</li>
+        </ul>
+    </div>
+</header>
+<section class="container">
+    <article>
+        <h2>{{page.welcome-title}}</h2>
+        <p>{{page.welcome-description1}}</p>
+        <p class="lead">{{page.welcome-description2}}</p>
+    </article>
+    <div class="divider"><!-- divider -->
+        <i class="fa fa-star"></i>
+    </div>
+    <article class="row">
+        <div class="col-md-6">
+            <img class="img-responsive" src="{{ page.about-image | prepend: site.url }}" width="555" height="311" alt="">
+        </div>
+        <div class="col-md-6">
+            <h3>{{page.about-header}}</h3>
+            <p>{{page.about-content-p1}}</p>
+            <p>{{page.about-content-p2}}</p>
+            <p>{{page.about-content-p3}}</p>
+        </div>
+    </article>
+</section>
+
