@@ -5,8 +5,13 @@ description: "Write an awesome description for your new site here. You can edit 
 baseurl: ""
 url: "http://localhost:4000"
 host: localhost
-include: [_colorpicker.js, _handlebars.js, _jquery.placeholder.js, _scripts.js, _jq.js, _skinchooser.js, _skins.js, _colorpicker.css]
+include: [_colorpicker.js, _handlebars.js]
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+footer-phone: "+61 1300 737 500"
+footer-email: "contact@wildgums.com"
+footer-copyright: "Wild Gums. All Rights Reserved."
