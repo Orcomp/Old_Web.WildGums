@@ -3,7 +3,7 @@ title: Wild Gums
 email: contact@wildgums.com
 description: "WildGums Software"
 baseurl: ""
-url: "http://orcomp.github.io/Web.WildGums"
+url: "http://www.wildgums.com"
 include: [_colorpicker.js, _handlebars.js]
 
 # Build settings
