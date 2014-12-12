@@ -10,6 +10,9 @@ include: [_colorpicker.js, _handlebars.js]
 markdown: kramdown
 permalink: pretty
 
+gems:
+  - jekyll-redirect-from
+  
 footer-phone: "+61 1300 737 500"
 footer-email: "contact@wildgums.com"
 footer-copyright: "Wild Gums. All Rights Reserved."
