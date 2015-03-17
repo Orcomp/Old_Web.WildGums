@@ -1,5 +1,5 @@
 # Site settings
-title: Wild Gums
+title: WildGums
 email: contact@wildgums.com
 description: "WildGums Software"
 baseurl: ""
@@ -15,4 +15,4 @@ gems:
   
 footer-phone: "+61 1300 737 500"
 footer-email: "contact@wildgums.com"
-footer-copyright: "Wild Gums. All Rights Reserved."
+footer-copyright: "WildGums. All Rights Reserved."
