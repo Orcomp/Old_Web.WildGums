@@ -160,29 +160,31 @@ softwaremodules:
                 </div>
                 <div class="col-md-1"></div>
             </div>
-            <div class="row margin-bottom">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <div class="no-margin-top">{{softwaremodules.about}}</div>
+            <div class="white-row">
+                <div class="row margin-bottom">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="no-margin-top">{{softwaremodules.about}}</div>
+                    </div>
+                    <div class="col-md-1"></div>
                 </div>
-                <div class="col-md-1"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-1 post-content "></div>
-                <div class="col-md-4 post-content">
-                    <ul>
-                        <p>{{softwaremodules.description1}}</p>
-                        <p>{{softwaremodules.description2}}</p>
-                        <p>{{softwaremodules.description3}}</p>
-                        <p>{{softwaremodules.description4}}</p>
-                        <p>{{softwaremodules.description5}}</p>
-                        <p>{{softwaremodules.description6}}</p>
-                    </ul>
+                <div class="row">
+                    <div class="col-md-1 post-content "></div>
+                    <div class="col-md-4 post-content">
+                        <ul>
+                            <p>{{softwaremodules.description1}}</p>
+                            <p>{{softwaremodules.description2}}</p>
+                            <p>{{softwaremodules.description3}}</p>
+                            <p>{{softwaremodules.description4}}</p>
+                            <p>{{softwaremodules.description5}}</p>
+                            <p>{{softwaremodules.description6}}</p>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                          <img style="height:315px;" src="{{ softwaremodules.image prepend: site.url}}" alt="...">
+                    </div>
+                    <div class="col-md-2 post-content "></div>
                 </div>
-                <div class="col-md-6">
-                      <img style="height:315px;" src="{{ softwaremodules.image prepend: site.url}}" alt="...">
-                </div>
-                <div class="col-md-2 post-content "></div>
             </div>
         {% endfor %}
    </section>
