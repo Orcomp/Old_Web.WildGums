@@ -23,76 +23,22 @@ contact-visit-us-email: "contact@wildgums.com"
     </script>
 </header>
 <section id="contact" class="container">
-
-
-                <div class="row">
-
-                    <!-- FORM -->
-                    <div class="col-md-8">
-
-                        <h2>{{page.contact-header}}</h2>
-
-                        <form class="white-row" action="php/contact.php" method="post">
-                            <div class="row">
-                                <div class="form-group">
-                                    <div class="col-md-6">
-                                        <label>Full Name *</label>
-                                        <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>E-mail Address *</label>
-                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group">
-                                    <div class="col-md-12">
-                                        <label>Subject</label>
-                                        <input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group">
-                                    <div class="col-md-12">
-                                        <label>Message *</label>
-                                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="submit" value="Send Message" class="btn btn-primary btn-lg" data-loading-text="Loading...">
-                                </div>
-                            </div>
-                        </form>
-                    
-                    </div>
-                    <!-- /FORM -->
-
-
-                    <!-- INFO -->
-                    <div class="col-md-4">
-
-                        <h2>{{page.contact-visit-us-header}}</h2>
-
-                        <p>{{page.contact-visit-us-description}}</p>
-
-                        <div class="divider half-margins"><!-- divider -->
-                            <i class="fa fa-star"></i>
-                        </div>
-
-                        <p>
-                            <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> {{page.contact-visit-us-address}}</span>
-                            <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong>
-                            {{page.contact-visit-us-phone}}</span>
-                            <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong>
-                             <a href="{{page.contact-visit-us-email}}">{{page.contact-visit-us-email}}</a></span>
-                        </p>
-                    </div>
-                    <!-- /INFO -->
-
-                </div>
-
-            </section>
+    <div class="row">
+        <!-- INFO -->
+        <div class="col-md-6" style="margin-left:20px;">
+            <p>
+                <span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> {{page.contact-visit-us-address}}</span>
+            </p>
+            <p>    
+                <span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong>
+                {{page.contact-visit-us-phone}}</span>
+            </p>
+            <p>
+                <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong>
+                 <a href="{{page.contact-visit-us-email}}">{{page.contact-visit-us-email}}</a></span>
+            </p>
+        </div>
+        <div class="col-md-6"></div>                  	
+        <!-- /INFO -->
+    </div>
+</section>
