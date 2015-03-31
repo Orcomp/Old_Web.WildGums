@@ -41,13 +41,21 @@ slide7-button-title: "Software Modules"
 # Note: if you want add multiline description, use </br> as a break line symbol
 slide1-button-title: "Software Modules"
 
-
-
-
-
 welcome-header: "<strong>Welcome</strong> to WildGums"
 welcome-subheader: "Advanced planning and scheduling solutions"
-welcome-content: "<strong>WildGums</strong> is an Australian company developing software for the Global Planning and Scheduling market.<br/> WildGums software empowers our users to make better more informed decisions.<br/> We turn data into information so that you can turn information into empowerment.<br> At WildGums our aim is to ensure we provide a simple, easy to use and feature rich experience for our users.<br/> We use our technology to help make sure you focus on your information rather than our software."
+welcome-content: "<strong>WildGums</strong> is an Australian company developing software for the Global Planning and Scheduling market."
+
+white-rows-row1-header: "<strong>Our</strong> Software"
+white-rows-row1-content: "WildGums software empowers our users to make better more informed decisions."
+
+white-rows-row2-header: ""
+white-rows-row2-content: "We turn data into information so that you can turn information into empowerment."
+
+white-rows-row3-header: "<strong>Our</strong>  Aim"
+white-rows-row3-content: "At WildGums our aim is to ensure we provide a simple, easy to use and feature rich experience for our users."
+
+white-rows-row4-header: ""
+white-rows-row4-content: "We use our technology to help make sure you focus on your information rather than our software."
 
 # Note: if you want to make a text bold, put it into <strong>Your text</strong> tag.
 
@@ -70,11 +78,7 @@ featured-boxes-box4-content: "Lorem ipsum dolor sit amet, consectetur adipiscing
 callout-content: "Advanced Scheduling and Planning software for busy people."
 callout-button-title: "Our Products"
 
-white-rows-row1-header: "<strong>White</strong> Row"
-white-rows-row1-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
 
-white-rows-row2-header: "<strong>White</strong>  Row"
-white-rows-row2-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
 ---
     <!-- REVOLUTION SLIDER -->
     <div class="fullwidthbanner-container roundedcorners">
@@ -781,88 +785,29 @@ white-rows-row2-content: "Lorem ipsum dolor sit amet, consectetur adipisicing el
     <!-- /REVOLUTION SLIDER -->
 
 
-    <section class="container text-center" style="padding:40px;">
-        <h1 class="text-center">
+    <section class="container text-center">
+        <h1 class="text-center" style="margin:10px;">
             {{page.welcome-header}}
             <span class="subtitle">{{page.welcome-subheader}}</span>
         </h1>
         <p class="lead">{{page.welcome-content}}</p>
     </section>
 
-
     <div class="container">
-        <hr class="half-margins" /><!-- hr line -->
-    </div>
-
-
-    <!-- FEATURED BOXES 3 -->
-    <section class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="featured-box nobg border-only">
-                    <div class="box-content">
-                        <i class="fa {{page.featured-boxes-box1-icon}}"></i>
-                        <h4>{{page.featured-boxes-box1-header}}</h4>
-                        <p>{{page.featured-boxes-box1-content}}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="featured-box nobg border-only left-separator">
-                    <i class="fa {{page.featured-boxes-box2-icon}}"></i>
-                    <h4>{{page.featured-boxes-box2-header}}</h4>
-                    <p>{{page.featured-boxes-box2-content}}</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="featured-box nobg border-only left-separator">
-                    <i class="fa {{page.featured-boxes-box3-icon}}"></i>
-                    <h4>{{page.featured-boxes-box3-header}}</h4>
-                    <p>{{page.featured-boxes-box3-content}}</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="featured-box nobg border-only left-separator">
-                    <i class="fa {{page.featured-boxes-box4-icon}}"></i>
-                    <h4>{{page.featured-boxes-box4-header}}</h4>
-                    <p>{{page.featured-boxes-box4-content}}</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /FEATURED BOXES 3 -->
-
-
-
-    <!-- CALLOUT -->
-    <div class="bs-callout margin-top text-center styleBackground noradius">
-        <h3>{{page.callout-content}}
-        <a href="#" target="_blank" class="btn btn-primary btn-lg">{{page.callout-button-title}}</a></h3>
-    </div>
-    <!-- /CALLOUT -->
-
-
-    <div class="container">
-        <hr class="no-lines" /><!-- hr line -->
-    </div>
-    
-
-    <!-- WHITE ROWS -->
-    <div class="container">
-
         <div class="col-md-6">
             <div class="white-row">
                 <h2>{{page.white-rows-row1-header}}</h2>
-                <p>{{page.white-rows-row1-content}}</p>
+                <p>{{page.white-rows-row1-content}}
+                   {{page.white-rows-row2-content}}</p>
             </div>
         </div>
 
         <div class="col-md-6">
             <div class="white-row">
-                <h2>{{page.white-rows-row2-header}}</h2>
-                <p>{{page.white-rows-row2-content}}</p>
+                <h2>{{page.white-rows-row3-header}}</h2>
+                <p>{{page.white-rows-row3-content}}
+                 {{page.white-rows-row4-content}}</p>
             </div>
         </div>
     </div>
-
-    <!-- /WHITE ROWS -->
+    
