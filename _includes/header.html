@@ -19,6 +19,28 @@
               <li>
                 <a href="{{ site.url }}"><b>Home</b></a>
               </li>
+
+              {% for page in site.pages %}
+                {% if page.approach-title %}
+                  <li>
+                    <a href="{{ page.url | prepend: site.url }}">{{ page.approach-title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+              
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">Software<i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu">
+                  {% for page in site.pages %}
+                    {% if page.dropdown-title %}
+                      <li>
+                        <a href="{{ page.url | prepend: site.url }}">{{ page.dropdown-title }}</a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+
               {% for page in site.pages %}
                 {% if page.title %}
                   <li>
@@ -26,6 +48,7 @@
                   </li>
                 {% endif %}
               {% endfor %}
+
             </ul>
           </nav>
         </div>
