@@ -12,6 +12,7 @@ permalink: pretty
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
   
 footer-phone: "+61 1300 737 500"
 footer-email: "contact@wildgums.com"
